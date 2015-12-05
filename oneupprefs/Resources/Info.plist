@@ -23,6 +23,6 @@
 	<key>MinimumOSVersion</key>
 	<string>3.0</string>
 	<key>NSPrincipalClass</key>
-	<string>OneUpPrefsListController</string>
+	<string>OneUpPreferencesController</string>
 </dict>
 </plist>
