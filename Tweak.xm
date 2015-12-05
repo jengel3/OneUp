@@ -2,8 +2,6 @@
 
 int count = 0;
 NSString *oneUpFile = @"/Library/Application Support/OneUp/OneUp.mp3";
-NSMutableArray *bulletins = [[NSMutableArray alloc] init];
-
 
 %group sbHooks
 %hook SBBulletinBannerController
