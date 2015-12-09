@@ -99,18 +99,17 @@
       @"defaults": @"com.jake0oo0.oneupprefs",
       @"key": @"enabled",
       @"label": @"Enabled",
-      @"PostNotification": @"com.jake0oo0.oneup/settingsChanged",
+      @"PostNotification": @"com.jake0oo0.oneup/prefsChange",
       @"cellClass": @"SKTintedSwitchCell"
     },
     @{
       @"cell": @"PSEditTextCell",
       @"placeholder": @"100",
       @"defaults": @"com.jake0oo0.oneupprefs",
-      @"key": @"activate_every",
-      @"label": @"Activation Count",
-      @"PostNotification": @"com.jake0oo0.oneup/settingsChanged",
-      @"isNumeric": @YES,
-      @"keyboard": @"{'numbers'}"
+      @"key": @"frequency",
+      @"label": @"Activation Frequency",
+      @"PostNotification": @"com.jake0oo0.oneup/prefsChange",
+      @"isNumeric": @YES
     },
     @{
       @"cell": @"PSGroupCell",
