@@ -1,7 +1,7 @@
 Package: com.jake0oo0.oneup
 Name: OneUp
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
 Description: Play a Mario OneUp Sound for every n notifications
 Maintainer: Jake0oo0 <jake0oo0dev@gmail.com>

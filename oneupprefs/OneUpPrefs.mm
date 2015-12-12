@@ -65,9 +65,9 @@
 @end
 
 @implementation OneUpPreferencesController
-// - (UIColor *)tintColor { 
-//   return [UIColor colorWithRed:0.19 green:0.56 blue:0.84 alpha:1.0]; // instagram color
-// }
+- (UIColor *)tintColor { 
+  return [UIColor colorWithRed:0.38 green:0.482 blue:0.91 alpha:1];
+}
 - (BOOL)tintNavigationTitleText { 
   return YES; 
 }
@@ -103,13 +103,21 @@
       @"cellClass": @"SKTintedSwitchCell"
     },
     @{
-      @"cell": @"PSEditTextCell",
-      @"placeholder": @"100",
+      @"cell": @"PSGroupCell",
+      @"label": @"Frequency"
+    },
+    @{
+      @"cell": @"PSSliderCell",
+      @"max": @200,
+      @"min": @10,
+      @"default": @100,
+      @"isSegmented": @YES,
+      @"showValue": @YES,
+      @"segmentCount": @19,
       @"defaults": @"com.jake0oo0.oneupprefs",
       @"key": @"frequency",
-      @"label": @"Activation Frequency",
       @"PostNotification": @"com.jake0oo0.oneup/prefsChange",
-      @"isNumeric": @YES
+      @"footerText": @"Customize how often the custom sound is played."
     },
     @{
       @"cell": @"PSGroupCell",
